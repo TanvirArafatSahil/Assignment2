@@ -125,6 +125,7 @@ nav ul li a{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
+    margin-bottom: 210.13px;
 }
 
 .card{
@@ -160,9 +161,46 @@ nav ul li a{
     border: none;
 }
 
+
+/* flower plant-lover */
+
+.flower-lover{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 60px;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 133.87px;
+}
+
+.badge{
+    width: 286px;
+    position: absolute;
+    left: 347px;
+    bottom: 438px;
+    
+}
+
+.flower-lover-img{
+    position: relative;
+}
+
+
+.flower-lover-title{
+    font-size: 3.125rem;
+
+}
+
+.first-p{
+    font-size: 1.375rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
 /* responsive */
 @media screen and (max-width:576px) {
-    .home, .shop, .us{
+    .home, .shop, .us, .badge{
         display: none;
     }
 
@@ -200,5 +238,12 @@ nav ul li a{
     .card-button{
         padding: 19px 30px 19px 30px;
     }
+
+    .flower-lover{
+        flex-direction: column;
+    }
     
+    .flower-lover-img1{
+        width: 100%;
+    }
 }
