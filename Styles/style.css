@@ -21,15 +21,18 @@
 
 
 
-
-
-
-nav{
+header{
     max-width: 1140px;
     margin: 0 auto;
+}
+
+/* nav part */
+
+nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 120px;
 }
 
 nav ul{
@@ -60,6 +63,48 @@ nav ul li a{
     color: #8987A1;
 }
 
+/* hero section */
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.header-title{
+    font-size: 4.06rem;  
+    margin-bottom: 0;
+}
+
+.header-title1{
+    font-size: 4.06rem;
+    margin-top: 0;
+}
+
+
+.header-description{
+    font-size: 1.375rem;
+    color: rgba(0, 0, 0, 0.5);
+   
+}
+
+
+
+.free{
+    color: #E95A08;
+}
+
+/* our plant */
+
+.our-plants{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.plant-container{
+    text-align: center;
+}
+
 
 /* responsive */
 @media screen and (max-width:576px) {
@@ -67,6 +112,14 @@ nav ul li a{
         display: none;
     }
 
-
+    .hero{
+        
+        flex-direction: column-reverse;
+       
+    }
+    .header-img{
+        width: 100%;
+    }
+    
     
 }
