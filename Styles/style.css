@@ -292,7 +292,6 @@ nav ul li a{
 }
 
 .bunch-title{
-    /* padding: 199px 429px 0 429px; */
     font-size: 3.125rem;
     font-weight: bold;
     color: #FFFFFF;
@@ -413,8 +412,12 @@ nav ul li a{
     .bloom-ana-zabo {
     flex-direction: column;
     align-items: center;
+    gap: 2px;
+    
   }
-
+   .deals-container{
+    margin-bottom: 40px;
+ }
   .deals-img-container {
     width: 100%;
     
