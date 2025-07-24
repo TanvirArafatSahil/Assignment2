@@ -22,7 +22,6 @@
 
 
 
-
 header{
     max-width: 1140px;
     margin: 0 auto;
@@ -174,11 +173,22 @@ nav ul li a{
     margin-bottom: 133.87px;
 }
 
+@keyframes badges {
+    from{
+       transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
 .badge{
     width: 286px;
     position: absolute;
     left: 347px;
     bottom: 438px;
+    animation: badges 2s linear 1s infinite ;
     
 }
 
