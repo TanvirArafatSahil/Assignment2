@@ -369,6 +369,9 @@ nav ul li a{
     justify-items: center;
 }
 
+.twitter{
+    padding-top: 10px;
+}
 
 /* responsive */
 @media screen and (max-width:576px) {
